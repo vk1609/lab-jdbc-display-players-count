@@ -5,8 +5,8 @@
 
 ## Progression 1:
 
-Create `Main.java` with main method 
-Create skill class with below attributes, 
+Create a class called as `Main` with main method 
+Create a class called as `skill` with below attributes, 
 • skillld - Long 
 • skillName - String 
 Include getter and setter method for all the attributes 
@@ -16,7 +16,7 @@ Include a constructor with below arguments,
 
 ## Progression 2:
 
-Create `skilIDAO` class with below method, 
+Create a dao-class called as `skilIDAO` with below method, 
 `public TreeMap<skill,lnteger> skillCount()` - Method used to retrieve number of players having particular skill. 
 ```
 Hint skillCount() method returns a map with key as skill type and value as number of players in that skill. Use TreeMap to store the values in alpabetical order. 
