@@ -38,3 +38,11 @@ public static Properties loadPropertiesFile() throws Exception {
 	return prop;
 }
 ```    
+**Sample Output**
+```
+Skill 			Players 
+All Rounder 		35 
+Batting 		31 
+Bowling 		27 
+Wicket Keeping Batting 	4 
+```
