@@ -51,7 +51,7 @@ If you haven't downloaded OJDBC driver (ojdbc6.jar), then download using this li
 
 ## Progression 2:
 
-1. **Create a class called as `skill` with below attributes,**
+1. **Create a model class called as `skill` with below attributes,**
 	- skillld - Long 
 	- skillName - String 
 2. **Include getter and setter method for all the attributes** 
