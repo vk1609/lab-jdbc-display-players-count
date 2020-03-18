@@ -30,14 +30,19 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Do not modify the entire code.***
 2. ***Edit the code as per the instructions.***
 3. ***Go to Java Resources -> src folder.***
-4. ***You database connection code should exist inside the utlity package.***
+4. ***You database connection code should exists inside the utlity package.***
 5. ***Your CREATE, READ, UPDATE and DELETE code should exist inside the dao package.***
-6. ***Once the progressions are completed follow the instructions to run the application and test your code.***
+6. ***Once the progressions are completed, follow the instructions to run the application and test your code.***
 7. ***Add appropriate jars to your project directory.***
 8. ***To add dependencies, right click on your project, select build path - configure build path - select libraries tab - select add external jars and add the downloaded jar files.***
 
 ## Requirements
 If you haven't downloaded OJDBC driver (ojdbc6.jar), then download using this link [https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html]
+
+## Schema Diagram
+
+![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
+
 
 ## Progression 0:
 1. Right click on src folder and select new - file and name it as jdbc.properties.
@@ -51,31 +56,26 @@ If you haven't downloaded OJDBC driver (ojdbc6.jar), then download using this li
 
 ## Progression 2:
 
-1. **Create a model class called as `skill` with below attributes,**
+1. Create a model class called as `skill` with below attributes,
 	- skillld - Long 
 	- skillName - String 
-2. **Include getter and setter method for all the attributes** 
-3. **Include a constructor with below arguments,** 
+2. Include getter and setter methods for all the attributes*
+3. Include a constructor with below arguments, 
 	- public skill(skillld,skillName) 
 
 
 ## Progression 3:
 
-1. **Create a dao-class called as `skilIDAO` with below method,** 
+1. Create a dao-class called as `skilIDAO` with below method, 
 	- public TreeMap<skill,lnteger> skillCount() - Method used to retrieve number of players having particular skill. 
 ```	
 Hint skillCount() method returns a map with key as skill type and value as number of players in that skill. Use TreeMap to store the values in alpabetical order. 
 ```
 
 ## Progression 4:
-1. **Create a controller class called `Main`.**
-2. **Create appropriate objects and call the skillCount() method.**
-3. **Refer sample out for output format.**
-
-
-
-![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
-
+1. Create a controller class called `Main`.
+2. Create appropriate objects and call the skillCount() method.
+3. Refer sample out for output format.
 
 ## Points to remember:
 _DAO Layer - Data access layer provides the gateway to create, reterive, update or delete any data in the database. All database related operations will be performed in this layer._
@@ -112,3 +112,5 @@ Batting 		31
 Bowling 		27 
 Wicket Keeping Batting 	4 
 ```
+
+Happy Coding ❤️
